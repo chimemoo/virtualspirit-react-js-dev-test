@@ -1,7 +1,7 @@
 import Avatar from "../Avatar"
 import { AvatarSizeTypes } from "../types"
-import avatar from '../../assets/avatar.webp'
 import './style.css'
+import { userList } from "./constants";
 
 interface AvatarGroupProps {
   maxLength: number;
@@ -14,8 +14,12 @@ function AvatarGroup({
 }: AvatarGroupProps) {
   return (
     <div className="avatar-group">
-      {[...Array(maxLength)].map((item, i) => (
-        <Avatar size={size} url={avatar} />
+      {userList.map((item, i) => (
+        <Avatar
+          size={size}
+          url={item.avatar}
+          name={item.name}
+        />
       ))}
     </div>
   )

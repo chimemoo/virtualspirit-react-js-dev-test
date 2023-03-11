@@ -4,7 +4,6 @@
 }
 
 .avatar-group .avatar {
-  display: inline-block;
   overflow: clip;
 }
 
