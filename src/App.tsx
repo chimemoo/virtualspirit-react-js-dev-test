@@ -1,11 +1,10 @@
 import './App.css'
-import Avatar from './components/Avatar';
-import avatar from './assets/avatar.jpeg'
+import AvatarGroup from './components/AvatarGroup';
 
 function App() {
   return (
     <div className="App">
-      <Avatar size="lg" url={avatar} />
+      <AvatarGroup maxLength={3} size="sm" />
     </div>
   )
 }

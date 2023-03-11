@@ -1,0 +1,13 @@
+.avatar-group {
+  display: flex;
+  overflow: hidden;
+}
+
+.avatar-group .avatar {
+  display: inline-block;
+  overflow: clip;
+}
+
+.avatar-group .avatar:not(:first-child) {
+  margin-left: -8px;
+}
