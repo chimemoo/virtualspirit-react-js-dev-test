@@ -13,6 +13,10 @@
   height: inherit;
 }
 
+.avatar.text {
+  background-color: #ddd;
+}
+
 .avatar.xs {
   width: 20px;
   height: 20px;

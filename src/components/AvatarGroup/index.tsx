@@ -12,15 +12,19 @@ function AvatarGroup({
   maxLength,
   size,
 }: AvatarGroupProps) {
+  const showedAvatar = userList.slice(0, maxLength);
   return (
     <div className="avatar-group">
-      {userList.map((item, i) => (
+      {showedAvatar.map((item, i) => (
         <Avatar
           size={size}
           url={item.avatar}
           name={item.name}
         />
       ))}
+      <div className={`avatar more ${size}`}>
+        <span>{`+${userList.length - maxLength}`}</span>
+      </div>
     </div>
   )
 }

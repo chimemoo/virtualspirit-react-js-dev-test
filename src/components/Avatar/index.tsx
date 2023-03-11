@@ -7,25 +7,23 @@ interface AvatarProps {
   size: AvatarSizeTypes
   name: string
   url?: string
-  style?: CSSProperties
 }
 
 function Avatar({
   size,
   url,
   name,
-  style,
 }: AvatarProps) {
   if (!url) {
     return (
-      <div className={`avatar ${size}`} style={style}>
+      <div className={`avatar text ${size}`}>
         <span>{getFirstTwoChars(name)}</span>
       </div>
     )
   }
 
   return (
-    <div className={`avatar ${size}`} style={style}>
+    <div className={`avatar ${size}`}>
       <img src={url} alt={name} />
     </div>
   )

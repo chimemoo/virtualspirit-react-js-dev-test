@@ -10,3 +10,7 @@
 .avatar-group .avatar:not(:first-child) {
   margin-left: -8px;
 }
+
+.avatar-group .avatar.more {
+  background-color: #ddd;
+}
