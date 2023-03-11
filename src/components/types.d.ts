@@ -1,0 +1,1 @@
+export type AvatarSizeTypes = 'xs' | 'sm' | 'md' | 'lg';
