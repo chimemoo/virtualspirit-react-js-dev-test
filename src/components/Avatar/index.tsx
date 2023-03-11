@@ -16,7 +16,7 @@ function Avatar({
 }: AvatarProps) {
   if (!url) {
     return (
-      <div className={`avatar text ${size}`}>
+      <div className={`avatar placeholder ${size}`}>
         <span>{getFirstTwoChars(name)}</span>
       </div>
     )

@@ -4,7 +4,7 @@ import AvatarGroup from './components/AvatarGroup';
 function App() {
   return (
     <div className="App">
-      <AvatarGroup maxLength={3} size="sm" />
+      <AvatarGroup maxLength={3} size="xs" />
     </div>
   )
 }
