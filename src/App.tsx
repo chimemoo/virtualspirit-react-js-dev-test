@@ -1,10 +1,15 @@
 import './App.css'
 import AvatarGroup from './components/AvatarGroup';
+import { userList } from './constants';
 
 function App() {
   return (
     <div className="App">
-      <AvatarGroup maxLength={3} size="xs" />
+      <AvatarGroup
+        userList={userList}
+        maxLength={5}
+        size="xs"
+      />
     </div>
   )
 }

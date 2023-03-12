@@ -1,10 +1,10 @@
 import { CSSProperties } from 'react'
 import { getFirstTwoChars } from '../../utils'
-import { AvatarSizeTypes } from '../types'
+import { AvatarSizeType } from '../types'
 import './style.css'
 
 interface AvatarProps {
-  size: AvatarSizeTypes
+  size: AvatarSizeType
   name: string
   url?: string
 }
@@ -16,14 +16,14 @@ function Avatar({
 }: AvatarProps) {
   if (!url) {
     return (
-      <div className={`avatar placeholder ${size}`}>
+      <div className={`avatar placeholder ${size}`} data-testid="avatar-placeholder">
         <span>{getFirstTwoChars(name)}</span>
       </div>
     )
   }
 
   return (
-    <div className={`avatar ${size}`}>
+    <div className={`avatar ${size}`} data-testid="avatar-image">
       <img src={url} alt={name} />
     </div>
   )

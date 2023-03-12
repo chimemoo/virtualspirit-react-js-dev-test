@@ -1,6 +1,6 @@
-import avatar1 from '../../assets/avatar1.webp'
-import avatar2 from '../../assets/avatar2.webp'
-import avatar3 from '../../assets/avatar3.webp'
+import avatar1 from './assets/avatar1.webp'
+import avatar2 from './assets/avatar2.webp'
+import avatar3 from './assets/avatar3.webp'
 
 
 const userList = [

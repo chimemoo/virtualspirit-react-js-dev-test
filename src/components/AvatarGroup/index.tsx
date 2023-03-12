@@ -1,14 +1,15 @@
 import Avatar from "../Avatar"
-import { AvatarSizeTypes } from "../types"
+import { AvatarSizeType, UserListType } from "../types"
 import './style.css'
-import { userList } from "./constants";
 
 interface AvatarGroupProps {
-  maxLength: number;
-  size: AvatarSizeTypes;
+  userList: UserListType[]
+  maxLength: number
+  size: AvatarSizeType
 }
 
 function AvatarGroup({
+  userList,
   maxLength,
   size,
 }: AvatarGroupProps) {
