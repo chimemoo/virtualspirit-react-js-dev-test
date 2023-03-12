@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Avatar Component Test > Avatar with Image Showed Correctly 1`] = `
+<div
+  className="avatar sm"
+>
+  <img
+    alt="Budi Mulya"
+    src="/assets/avatar1.webp"
+  />
+</div>
+`;
+
+exports[`Avatar Component Test > Avatar with Placeholder Showed Correctly 1`] = `
+<div
+  className="avatar placeholder sm"
+>
+  <span>
+    BM
+  </span>
+</div>
+`;
