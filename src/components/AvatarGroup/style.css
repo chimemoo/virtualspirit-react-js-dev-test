@@ -11,6 +11,22 @@
   margin-left: -8px;
 }
 
-.avatar-group .avatar.more {
+.avatar-group>.more {
   background-color: #ddd;
+}
+
+.avatar-group>.more.xs span {
+  font-size: 9px;
+}
+
+.avatar-group.more.sm span {
+  font-size: 11px;
+}
+
+.avatar-group>.more.md span {
+  font-size: 12px;
+}
+
+.avatar-group>.more.lg span {
+  font-size: 14px;
 }
