@@ -7,14 +7,16 @@ exports[`AvatarGroup Component Test > Avatar Group with max length 3 and size xs
 >
   <div
     className="avatar xs"
+    data-testid="avatar-image"
   >
     <img
       alt="Budi"
-      src="/src/assets/avatar1.webp"
+      src="/@fs/assets/avatar1.webp"
     />
   </div>
   <div
     className="avatar placeholder xs"
+    data-testid="avatar-placeholder"
   >
     <span>
       BM
@@ -22,17 +24,18 @@ exports[`AvatarGroup Component Test > Avatar Group with max length 3 and size xs
   </div>
   <div
     className="avatar xs"
+    data-testid="avatar-image"
   >
     <img
       alt="Meli Sulis"
-      src="/src/assets/avatar3.webp"
+      src="/@fs/assets/avatar3.webp"
     />
   </div>
   <div
     className="avatar more xs"
   >
     <span>
-      +3
+      +5
     </span>
   </div>
 </div>
@@ -45,14 +48,16 @@ exports[`AvatarGroup Component Test > Avatar Group with max length 4 and size sm
 >
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Budi"
-      src="/src/assets/avatar1.webp"
+      src="/@fs/assets/avatar1.webp"
     />
   </div>
   <div
     className="avatar placeholder sm"
+    data-testid="avatar-placeholder"
   >
     <span>
       BM
@@ -60,45 +65,49 @@ exports[`AvatarGroup Component Test > Avatar Group with max length 4 and size sm
   </div>
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Meli Sulis"
-      src="/src/assets/avatar3.webp"
+      src="/@fs/assets/avatar3.webp"
     />
   </div>
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Meri"
-      src="/src/assets/avatar1.webp"
+      src="/@fs/assets/avatar1.webp"
     />
   </div>
   <div
     className="avatar more sm"
   >
     <span>
-      +2
+      +4
     </span>
   </div>
 </div>
 `;
 
-exports[`AvatarGroup Component Test > Avatar Group with max length same with dummy data count and size sm showed correctly 1`] = `
+exports[`AvatarGroup Component Test > Avatar Group with maxLength above the number of user list showed correctly 1`] = `
 <div
   className="avatar-group"
   data-testid="avatar-group"
 >
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Budi"
-      src="/src/assets/avatar1.webp"
+      src="/@fs/assets/avatar1.webp"
     />
   </div>
   <div
     className="avatar placeholder sm"
+    data-testid="avatar-placeholder"
   >
     <span>
       BM
@@ -106,34 +115,63 @@ exports[`AvatarGroup Component Test > Avatar Group with max length same with dum
   </div>
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Meli Sulis"
-      src="/src/assets/avatar3.webp"
+      src="/@fs/assets/avatar3.webp"
+    />
+  </div>
+</div>
+`;
+
+exports[`AvatarGroup Component Test > Avatar Group with maxLength same with number of user list showed correctly 1`] = `
+<div
+  className="avatar-group"
+  data-testid="avatar-group"
+>
+  <div
+    className="avatar sm"
+    data-testid="avatar-image"
+  >
+    <img
+      alt="Budi"
+      src="/@fs/assets/avatar1.webp"
+    />
+  </div>
+  <div
+    className="avatar placeholder sm"
+    data-testid="avatar-placeholder"
+  >
+    <span>
+      BM
+    </span>
+  </div>
+  <div
+    className="avatar sm"
+    data-testid="avatar-image"
+  >
+    <img
+      alt="Meli Sulis"
+      src="/@fs/assets/avatar3.webp"
     />
   </div>
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Meri"
-      src="/src/assets/avatar1.webp"
+      src="/@fs/assets/avatar1.webp"
     />
   </div>
   <div
     className="avatar sm"
+    data-testid="avatar-image"
   >
     <img
       alt="Adi Mulya"
-      src="/src/assets/avatar2.webp"
-    />
-  </div>
-  <div
-    className="avatar sm"
-  >
-    <img
-      alt="Sule Sulis"
-      src="/src/assets/avatar3.webp"
+      src="/@fs/assets/avatar2.webp"
     />
   </div>
 </div>

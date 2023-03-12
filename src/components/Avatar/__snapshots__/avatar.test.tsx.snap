@@ -3,10 +3,11 @@
 exports[`Avatar Component Test > Avatar with Image Showed Correctly 1`] = `
 <div
   className="avatar sm"
+  data-testid="avatar-image"
 >
   <img
     alt="Budi Mulya"
-    src="/assets/avatar1.webp"
+    src="/src/assets/avatar1.webp"
   />
 </div>
 `;
@@ -14,6 +15,7 @@ exports[`Avatar Component Test > Avatar with Image Showed Correctly 1`] = `
 exports[`Avatar Component Test > Avatar with Placeholder Showed Correctly 1`] = `
 <div
   className="avatar placeholder sm"
+  data-testid="avatar-placeholder"
 >
   <span>
     BM
