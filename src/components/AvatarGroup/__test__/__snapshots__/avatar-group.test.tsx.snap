@@ -1,0 +1,140 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AvatarGroup Component Test > Avatar Group with max length 3 and size xs showed correctly 1`] = `
+<div
+  className="avatar-group"
+  data-testid="avatar-group"
+>
+  <div
+    className="avatar xs"
+  >
+    <img
+      alt="Budi"
+      src="/src/assets/avatar1.webp"
+    />
+  </div>
+  <div
+    className="avatar placeholder xs"
+  >
+    <span>
+      BM
+    </span>
+  </div>
+  <div
+    className="avatar xs"
+  >
+    <img
+      alt="Meli Sulis"
+      src="/src/assets/avatar3.webp"
+    />
+  </div>
+  <div
+    className="avatar more xs"
+  >
+    <span>
+      +3
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AvatarGroup Component Test > Avatar Group with max length 4 and size sm showed correctly 1`] = `
+<div
+  className="avatar-group"
+  data-testid="avatar-group"
+>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Budi"
+      src="/src/assets/avatar1.webp"
+    />
+  </div>
+  <div
+    className="avatar placeholder sm"
+  >
+    <span>
+      BM
+    </span>
+  </div>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Meli Sulis"
+      src="/src/assets/avatar3.webp"
+    />
+  </div>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Meri"
+      src="/src/assets/avatar1.webp"
+    />
+  </div>
+  <div
+    className="avatar more sm"
+  >
+    <span>
+      +2
+    </span>
+  </div>
+</div>
+`;
+
+exports[`AvatarGroup Component Test > Avatar Group with max length same with dummy data count and size sm showed correctly 1`] = `
+<div
+  className="avatar-group"
+  data-testid="avatar-group"
+>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Budi"
+      src="/src/assets/avatar1.webp"
+    />
+  </div>
+  <div
+    className="avatar placeholder sm"
+  >
+    <span>
+      BM
+    </span>
+  </div>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Meli Sulis"
+      src="/src/assets/avatar3.webp"
+    />
+  </div>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Meri"
+      src="/src/assets/avatar1.webp"
+    />
+  </div>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Adi Mulya"
+      src="/src/assets/avatar2.webp"
+    />
+  </div>
+  <div
+    className="avatar sm"
+  >
+    <img
+      alt="Sule Sulis"
+      src="/src/assets/avatar3.webp"
+    />
+  </div>
+</div>
+`;
