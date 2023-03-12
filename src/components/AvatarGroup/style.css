@@ -3,10 +3,6 @@
   overflow: hidden;
 }
 
-.avatar-group .avatar {
-  overflow: clip;
-}
-
 .avatar-group .avatar:not(:first-child) {
   margin-left: -8px;
 }
